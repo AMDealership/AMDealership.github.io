@@ -3,11 +3,6 @@
     <title>
       AutoMotive Dealership | Home
     </title>
-    <script type="text/javascript">
-      if (screen.width <= 699) {
-      document.location = "mobile.html";
-      }
-    </script>
     <style>  
       a.border {
         text-decoration: none; border-style: solid; border-color: white; border-radius: 5px; padding: 5;
@@ -36,6 +31,7 @@
       }
       table{
         background-size: 100% 100%;
+        max-width: 100%;
       }
       .img {
         width: fit-content 50%; 
@@ -107,13 +103,13 @@
     <br>
 
     <!--Welcome-->
-    <table background="images/index.jpg" height="120%" width="100%" style="padding-left: 50px; padding-top: 0px; padding-bottom: 80px;">
+    <table background="images/index.jpg" height="50%" width="100%" style="padding-left: 50px; padding-top: 0px; padding-bottom: 80px;">
       <tr>
         <td width="70%" height="100%" valign="top">
           <h1 style="font-family:Arial;font-size: 55px;"><br>WELCOME TO <br>AUTOMOTIVE <br>DEALERSHIP</h1>
         </td>
         <td valign="bottom">
-          <center><a href="explore.html"><img src="images/z1.png" height="90" width="280px"></a></center>
+          <center><a href="explore.html"><img src="images/z1.png" height="90" width="280px" hspace="60"></a></center>
         </td>
       </tr>     
     </table>
@@ -126,6 +122,7 @@
     <!--Brands-->
     <h1 style="color: #ffffff;" align="center">BRANDS AVAILABLE</h1>
     <hr><hr>
+    <div style="margin: 120px;">
     <a href="cars/BMW LIST.html" title="BMW" target="_blank">
       <img src="images/brands/bmw.png" vspace="60"
       hspace="35" width="95" height="100"></a>
@@ -138,6 +135,8 @@
             
       <a href="cars/LAMBORGHINI LIST.html" title="Lamborghini" target="_blank">
       <img src="images/brands/lamb.png" vspace="64" hspace="55" width="95" height="100"></a>
+
+      <br>
             
       <a href="cars/HONDA LIST.html" title="Honda" target="_blank">
       <img src="images/brands/honda.png" vspace="64" hspace="35" width="95" height="100"></a>
@@ -150,6 +149,7 @@
             
       <a href="cars/TESLA LIST.html" title="Tesla" target="_blank">
       <img src="images/brands/tesla.png" vspace="64" hspace="30" width="95" height="100"></a>    
+    </div>
     <!--BrandsEnd-->
 
     <hr><hr>
@@ -162,7 +162,7 @@
 
     <!--QuickGlance-->    
     <h1 id="hh">QUICK GLANCE</h1>    
-    <table cellspacing="50" class="fit">
+    <table cellspacing="50">
       <tr>
         <td width="25%" class="shadow" id="i1">
           <a href="cars/TESLA LIST.html" target="_blank">
