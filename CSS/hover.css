@@ -1,0 +1,9 @@
+#i1{
+    transition: transform .1s;
+  }
+  #i1:hover {
+      transform: scale(1.15);
+  }
+  #i2:hover {
+    transform: scale(1.05);
+  }
