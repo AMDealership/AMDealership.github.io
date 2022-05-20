@@ -3,15 +3,14 @@
     <title>
       AutoMotive Dealership | Home
     </title>
-    <script type="text/javascript">
-      if (screen.width <= 699) {
-      document.location = "mobile.html";
-      }
-    </script>
     <link rel="stylesheet" type="text/css" href="CSS/hover.css">
     <style>  
       a.border {
-        text-decoration: none; border-style: solid; border-color: white; border-radius: 5px; padding: 5;
+        text-decoration: none; 
+        border-style: solid; 
+        border-color: white; 
+        border-radius: 5px; 
+        padding: 5px;
       }    
 			a:link {color: #ffffff;}
 			a:visited {color: #ffffff;}
@@ -39,6 +38,12 @@
       table {
         background-size: 100% 100%;
       }
+      li {
+        display: inline;
+      }
+      #i1:hover {
+      transform: scale(1.15);
+      }
       .img {
         margin: 50px;
       	transition: transform .2s;
@@ -52,46 +57,37 @@
   <body bgcolor="#0c0c0c">
 
     <!--Navbar-->
-    <table align="right" style="width:100px;">
-      <tr>
-        <td width="100%">
-          <img id="logo" src="images/logo.jpg" style="margin: 20px;" height="87">
-        </td>
-        <td>
-          <img src="images/space.png" width="650" height="47">
-        </td>
-        <td>
-          <a href="index.html" target="_blank"><img src="images/hometab.png" width="107" height="47" id="i2"></a>
-        </td>
-        <td>
-          <img src="images/space.png" width="20" height="47">
-        </td>
-        <td>
-          <a href="Cars.html" target="_blank"><img src="images/carstab.png" width="107" height="47" id="i2"></a>
-        </td>
-        <td>
-          <img src="images/space.png" width="20" height="47">
-        </td>
-        <td>
-          <a href="Compare.html" target="_blank"><img src="images/comparetab.png" width="157" height="47" id="i2"></a>
-        </td>
-        <td>
-          <img src="images/space.png" width="20" height="47">
-        </td>
-        <td>
-          <a href="#cu"><img src="images/contacttab.png" width="191" height="47" id="i2"></a>
-        </td>
-        <td>
-          <img src="images/space.png" width="20" height="47">
-        </td>
-      </tr>
-    </table>
+    <div style="margin-right: 10px;">
+      <ul>
+      
+      <li><img id="logo" src="images/logo.jpg" style="margin-top: 30px;" height="47"></li>
+
+      <li><img src="images/space.png" width="660" height="47"></li></li>
+      
+      <li><a href="index.html" target="_blank"><img src="images/hometab.png" width="107" height="47" id="i2"></a></li>
+    
+      <li><img src="images/space.png" width="20" height="47"></li></li>
+    
+      <li><a href="Cars.html" target="_blank"><img src="images/carstab.png" width="107" height="47" id="i2"></a></li>
+    
+      <li><img src="images/space.png" width="20" height="47"></li></li>
+    
+      <li><a href="Compare.html" target="_parent"><img src="images/comparetab.png" width="157" height="47" id="i2"></a></li>
+    
+      <li><img src="images/space.png" width="20" height="47"></li></li>
+    
+      <li><a href="index.html#cu" target="_blank"><img src="images/contacttab.png" width="191" height="47" id="i2"></a></li>
+    
+      <li><img src="images/space.png" width="20" height="47"></li>
+
+      </ul>
+    </div>
     <!--NavbarEnd-->
 
-    <br>
+    <hr>
 
     <!--Welcome-->
-    <table background="images/index.jpg" height="120%" width="100%" style="padding-left: 50px; padding-top: 0px; padding-bottom: 80px;">
+    <table background="images/index.jpg" height="120%" width="100%" style="padding-left: 50px; padding-top: 0px; padding-bottom: 80px;margin: 0px;">
       <tr>
         <td width="70%" height="100%" valign="top">
           <h1 style="font-family:Arial;font-size: 55px;"><br>WELCOME TO <br>AUTOMOTIVE <br>DEALERSHIP</h1>
@@ -108,29 +104,28 @@
     <!--Brands-->
     <h1 style="color: #ffffff;" align="center">BRANDS AVAILABLE</h1>
     <hr><hr>
-    <a href="cars/BMW LIST.html" title="BMW" target="_blank">
-      <img src="images/brands/bmw.png" vspace="60"
-      hspace="35" width="95" height="100" id="i1"></a>
+      <a href="Cars.html#BMW" title="BMW" target="_blank">
+      <img src="images/brands/bmw.png" vspace="60" hspace="35" width="95" height="100" id="i1"></a>
             
-      <a href="cars/MERCEDES LIST.html" title="Mercedes Benz" target="_blank">
+      <a href="cars.html#MB" title="Mercedes Benz" target="_blank">
       <img src="images/brands/mb.png" vspace="60" hspace="41" width="95" height="100" id="i1"></img></a>
       
-      <a href="cars/W MOTORS LIST.html" title="W-Motors" target="_blank">
+      <a href="Cars.html#WM" title="W-Motors" target="_blank">
       <img src="images/brands/wm.png" vspace="64" hspace="35" width="95" height="100" id="i1"></a>
             
-      <a href="cars/LAMBORGHINI LIST.html" title="Lamborghini" target="_blank">
+      <a href="Cars.html#Lg" title="Lamborghini" target="_blank">
       <img src="images/brands/lamb.png" vspace="64" hspace="55" width="95" height="100" id="i1"></a>
             
-      <a href="cars/HONDA LIST.html" title="Honda" target="_blank">
+      <a href="Cars.html#H" title="Honda" target="_blank">
       <img src="images/brands/honda.png" vspace="64" hspace="35" width="95" height="100" id="i1"></a>
             
-      <a href="cars/AUDI LIST.html" title="Audi" target="_blank">
+      <a href="Cars.html#Au" title="Audi" target="_blank">
       <img src="images/brands/audi.png" vspace="74" hspace="25" width="120" height="70" id="i1"></a>
             
-      <a href="cars/Jaguar List.html" title="Jaguar" target="_blank">
+      <a href="Cars.html#J" title="Jaguar" target="_blank">
       <img src="images/brands/jag.png" vspace="70" hspace="35" width="120" height="75" id="i1"></a>
             
-      <a href="cars/TESLA LIST.html" title="Tesla" target="_blank">
+      <a href="Cars.html#T" title="Tesla" target="_blank">
       <img src="images/brands/tesla.png" vspace="64" hspace="30" width="95" height="100" id="i1"></a>    
     <!--BrandsEnd-->
 

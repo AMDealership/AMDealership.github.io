@@ -3,12 +3,8 @@
     <title>
       AMD | Cars
     </title>
-    <script type="text/javascript">
-      if (screen.width <= 699) {
-      document.location = "mobilecars.html";
-      }
-    </script>
     <link href='https://fonts.googleapis.com/css?family=Mina' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/hover.css">
     <style>
 			a:link {color: #ffffff;}
 			a:visited {color: #ffffff;}
@@ -29,7 +25,7 @@
       }
       table{
         border-collapse: collapse;
-        background-color: inherit;
+        background-color: #0c0c0c;
       }
       th{
         color: white;
@@ -40,57 +36,46 @@
       }
       .tab {
         font-size: medium;
-      }      
-      #i2:hover {
-        transform: scale(1.05);
-      }
+      } 
+      li{
+        display: inline;
+      }     
     </style>
   </head>
   <body bgcolor="#0c0c0c">
 
-    <!--Navbar-->
-    <table align="right" style="width:100px;">
-      <tr>
-        <td width="100%">
-          <img id="logo" src="images/logo.jpg" style="margin: 20px;" height="87">
-        </td>
-        <td>
-          <img src="images/space.png" width="650" height="47">
-        </td>
-        <td>
-          <a href="index.html" target="_blank"><img src="images/hometab.png" width="107" height="47" id="i2"></a>
-        </td>
-        <td>
-          <img src="images/space.png" width="20" height="47">
-        </td>
-        <td>
-          <a href="Cars.html" target="_blank"><img src="images/carstab.png" width="107" height="47" id="i2"></a>
-        </td>
-        <td>
-          <img src="images/space.png" width="20" height="47">
-        </td>
-        <td>
-          <a href="Compare.html" target="_blank"><img src="images/comparetab.png" width="157" height="47" id="i2"></a>
-        </td>
-        <td>
-          <img src="images/space.png" width="20" height="47">
-        </td>
-        <td>
-          <a href="#cu"><img src="images/contacttab.png" width="191" height="47" id="i2"></a>
-        </td>
-        <td>
-          <img src="images/space.png" width="20" height="47">
-        </td>
-      </tr>
-    </table>
-    <!--NavbarEnd-->
+    <div style="margin-right: 10px;">
+      <ul>
+      
+      <li><img id="logo" src="images/logo.jpg" style="margin-top: 30px;" height="47"></li>
+
+      <li><img src="images/space.png" width="660" height="47"></li></li>
+      
+      <li><a href="index.html" target="_blank"><img src="images/hometab.png" width="107" height="47" id="i2"></a></li>
+    
+      <li><img src="images/space.png" width="20" height="47"></li></li>
+    
+      <li><a href="Cars.html" target="_blank"><img src="images/carstab.png" width="107" height="47" id="i2"></a></li>
+    
+      <li><img src="images/space.png" width="20" height="47"></li></li>
+    
+      <li><a href="Compare.html" target="_parent"><img src="images/comparetab.png" width="157" height="47" id="i2"></a></li>
+    
+      <li><img src="images/space.png" width="20" height="47"></li></li>
+    
+      <li><a href="index.html#cu" target="_blank"><img src="images/contacttab.png" width="191" height="47" id="i2"></a></li>
+    
+      <li><img src="images/space.png" width="20" height="47"></li>
+
+      </ul>
+    </div>
+    
+    <hr>
 
     <img src="images/carspage.png" width="100%"><hr height="10px"><hr height="10px">
 
-    <!--BMW-->
     <img src="images/brand-bmw.png" width="100%" id="BMW"><hr><hr>
     <center>
-    <h1 style="color:white;font-size:30px;">
       <table border="0" bgcolor="white">
         <tr>
 <th rowspan="5" width="50%"><img src="images/i8.png" height="500" width="100%"></th>
@@ -164,11 +149,11 @@
           <th>&#8377;43 Lakhs</th>
         </tr>
       </table>
-      <!--BMWEnd-->
+
 
       <hr><hr>
 
-      <!--MB-->
+
       <img src="images/brand-mercedes.png" width="100%" id="MB"><hr><hr>
       <table border="0" bgcolor="white">
         <tr>
@@ -241,11 +226,9 @@
           <th>&#8377;99.57 Lakhs</th>
         </tr>
       </table>
-      <!--MBEnd-->
 
       <hr><hr>
       
-      <!--WM-->
       <img src="images/brand-w-motors.png" width="100%" id="WM"><hr><hr>
         <table border="0" bgcolor="white">
           <tr>
@@ -271,11 +254,9 @@
             <th>&#8377;21.7 Cr</th>
           </tr>
         </table>
-      <!--WMEnd-->
 
       <hr><hr>
       
-      <!--LAMB-->
       <img src="images/brand-lamborghini.png" width="100%" id="Lg"><hr><hr>
         <table border="0" bgcolor="white">
           <tr>
@@ -349,12 +330,10 @@
                 <th>Price</th>
                 <th>&#8377;6.25 Cr</th>
               </tr>
-        </table>
-      <!--LAMBEnd-->  
+        </table> 
       
       <hr><hr>
       
-      <!--Honda-->
       <img src="images/brand-honda.png" width="100%" id="H"><hr><hr>
       <table border="0" bgcolor="white">
           <tr>
@@ -405,11 +384,9 @@
               <th>&#8377;3.41 Lakhs</th>
             </tr>
         </table>
-      <!--HondaEnd-->
 
       <hr><hr>
       
-      <!--Audi-->
       <img src="images/brand-audi.png" width="100%" id="Au"><hr><hr>
       <table border="0" bgcolor="white">
           <tr>
@@ -435,11 +412,9 @@
             <th>&#8377;2.72 Cr</th>
           </tr>
         </table>
-      <!--AudiEnd-->
 
       <hr><hr>
       
-      <!--Jaguar-->
       <img src="images/brand-jaguar.png" width="100%" id="J"><hr><hr>
       <table border="0" bgcolor="white">
           <tr>
@@ -465,11 +440,9 @@
             <th>&#8377;1.46 Cr</th>
           </tr>
         </table>
-      <!--JaguarEnd-->
 
       <hr><hr>
       
-      <!--Tesla-->
       <img src="images/brand-tesla.png" width="100%" id="T"><hr><hr>
       <table border="0" bgcolor="white">
           <tr>
@@ -569,11 +542,9 @@
               <th>&#8377;3.0 Cr</th>
             </tr>
         </table>
-      <!--Tesla-->
 
       <hr>
       
-      <!--Contact US-->
       <div class="tab">    
         <table border="0" style="margin: 20px;">
         <tr>
@@ -634,9 +605,7 @@
             </td>
           </tr>
         </table>
-    <!--Contact US End-->
-  
-    <!--BTT-->
+   
     <hr></center>
     <table width="97%" style="margin: 20px;">
       <tr>
@@ -650,7 +619,6 @@
       </tr>
     </table>
     <hr>
-    <!--BTT-->
     
     </div>
   </body>
