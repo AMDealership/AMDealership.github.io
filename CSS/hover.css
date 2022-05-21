@@ -2,8 +2,18 @@
     transition: transform .1s;
   }
   #i1:hover {
-      transform: scale(1.15);
+    transform: scale(1.15);
   }
   #i2:hover {
     transform: scale(1.05);
+  }
+  #i2:active {
+    transform: scale(1.05);
+  }
+  .img {
+    transform-style: flat;
+  }
+  .img:before,
+  .img:after {
+    /*transform: translateZ(-1em);*/
   }
