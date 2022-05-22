@@ -4,16 +4,13 @@
   #i1:hover {
     transform: scale(1.15);
   }
+  #i2{
+    transition: transform .1s;
+    position: sticky;
+  }
   #i2:hover {
     transform: scale(1.05);
   }
-  #i2:active {
+  a:active {
     transform: scale(1.05);
-  }
-  .img {
-    transform-style: flat;
-  }
-  .img:before,
-  .img:after {
-    /*transform: translateZ(-1em);*/
   }

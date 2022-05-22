@@ -4,7 +4,6 @@
 <link rel="stylesheet" href="CSS/hover.css">
 <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg">
 <link rel="stylesheet" href="CSS/navbar.css">
-</head>
  <style>
 			a:link {color: #ffffff; text-decoration: none;}
 			a:visited {color: #ffffff;}
@@ -20,12 +19,32 @@
       .cap {
         text-align: center;
       }
-      card {
-        border-bottom: 5px solid #555;
-        box-shadow: 10px 10px 5px black;
+      .elec{
+        width: 10%;
+        height: auto;
+        transform: translateY(10%);
+      }
+      span.txt {
+        font-family: Arial;
+        font-size: 48px;
+        padding-left: 10px;
+        color: #ffffff;
+        font-weight: bold;
+        display: inline-flex;
+      }
+      .head {
+        opacity: 70%;
+        width: 98vw;
+        border-left: 10px solid #fff;
+        margin:0;
+        padding-top: 5px;
+        top: 100px;
+        position: absolute;
+        display: block;
+        background-color: black;
       }
     </style>
-
+</head>
 <body bgcolor="#0c0c0c" width="100%">
 
 <!--Navbar-->
@@ -51,35 +70,21 @@
 </nav>
  <!--NavbarEnd-->
 
-<hr id="stk">
+<hr id="stk"><br><br>
 
-<div>
-<span class="card" style="width: 45%; height: 60%;">  
-  <a href="cars/Tesla Model X.html#link"><img src="images/tmx.jpg" style="width: 45%; height: 50%;">
-    <span class="cap">
-      <h1>Tesla Model X</h1>
-    </span></a>
-  </span><br>
-
-<span class="card" style="width: 45%; height: 60%;">  
-  <a href="cars/Tesla Model S.html#link"><img src="images/tms.jpg" style="width: 100%;"></a> 
-    <span class="cap">
-      <h1>Tesla Model S</h1>
-    </span></a>
-  </span><br>
-
-<span class="card" style="width: 45%; height: 60%;">  
-  <a href="cars/Tesla Roadster.html#link"><img src="images/roadster.jpg" style="width: 100%;">
-    <span class="cap">
-      <h1>Tesla Roadster</h1>
-    </span></a>
+<div class="head">
+  <span class="txt">
+    ELECTRIC CARS ARE AVAILABLE IN OUR SHOWROOM NOW
   </span>
-</div>  
-<li><img src="images/space.png" width="660" height="47"></li>
-<li><img src="images/space.png" width="20" height="47"></li>
-<li><img src="images/space.png" width="20" height="47"></li>
-<li><img src="images/space.png" width="20" height="47"></li>
-<li><img src="images/space.png" width="20" height="47"></li>
+
+  <marquee behavior="scroll" bgcolor="black" direction="right" scrollamount="45" scrolldelay="85">
+    <span class="txt">ALL NEW TESLA ROADSTER </span><img src="images/roadster_sv.jpg" class="elec">
+  </marquee>
+</div>
+
+<div class="rdstr">
+  <img src="images/rdstr.png">
+</div>
 
   </body>
 </html>
